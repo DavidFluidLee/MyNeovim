@@ -5,6 +5,9 @@ local opts = {
     silent = true,       -- do not show message
 }
 
+
+vim.keymap.set("i", "jk", "<ESC>")
+
 -----------------
 -- Normal mode --
 -----------------
