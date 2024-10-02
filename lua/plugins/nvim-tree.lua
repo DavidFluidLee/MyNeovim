@@ -19,8 +19,6 @@ return {
       filters = {
           dotfiles = true, --过滤.开头的隐藏配置文件
           custom = { "node_modules",".git"}, 其它过滤目录
-          exclude = {".gitignore"}
-
       },
       view = {
           -- 文件浏览器展示件置，左侧：left,右侧:right
