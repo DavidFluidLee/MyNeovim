@@ -18,7 +18,8 @@ return {
       -- 过滤文件
       filters = {
           dotfiles = true, --过滤.开头的隐藏配置文件
-          custom = { "node_modules"}, 其它过滤目录
+          custom = { "node_modules",".git"}, 其它过滤目录
+          exclude = {".gitignore"}
 
       },
       view = {
