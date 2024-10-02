@@ -6,9 +6,9 @@ return {
         config = function()
             require('lualine').setup({
 	            options = {
-		        --theme = "auto",
-		        component_separators = { right = "|" },}
-
+		        theme = "auto",
+		        component_separators = { right = "|" },},
+                extensions = { "nvim-tree", "toggleterm" }
             })
         end
     }
