@@ -60,7 +60,6 @@ map("n", "w", "<cmd>w<CR>", opt)
 map("n", "wq", "<cmd>wq<CR>", opt)
 map("n", "<leader>q", "<cmd>q<CR>", opt)
 --map('n', "<leader>qq", ":qa!<CR>", opt)
---map("i", "jj", "<ESC>", opt)
 
 -- insert 模式下，跳到行首行尾
 map("i", "<C-h>", "<ESC>I", opt)
