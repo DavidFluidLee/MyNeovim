@@ -8,6 +8,8 @@ local opts = {
 
 vim.keymap.set("i", "kj", "<ESC>")
 
+vim.keymap.set("i", "jj", "<ESC>", opt)
+vim.keymap.set("i", "kk", "<ESC>", opt)
 -----------------
 -- Normal mode --
 -----------------
