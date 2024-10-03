@@ -3,3 +3,6 @@ https://github.com/hardhackerlabs/oh-my-nvim/blob/main/lua/plugins/start_screen.
 
 * 测试
  
+@startuml
+Bob -> Alice : hello
+@enduml
