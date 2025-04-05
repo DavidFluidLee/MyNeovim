@@ -5,7 +5,9 @@ vim.opt.cursorcolumn=true
 
 ---- Hint: use `:h <option>` to figure out the meaning if needed
 vim.opt.completeopt = { 'menu', 'menuone', 'noselect' }
-vim.opt.mouse = 'n' -- allow the mouse to be used in Nvim
+
+-- 修正鼠标复制到行号 在iTerm2 的Profiles->Terminal 配置Enable mouse reporting  Mouse Reporting（鼠标报告）允许终端应用程序（如 Neovim、Tmux、Less）接收鼠标事件（点击、滚动、拖拽），而不是由终端本身处理。
+vim.opt.mouse = 'a' -- allow the mouse to be used in Nvim
 
 -- Tab
 vim.opt.tabstop = 4 -- number of visual spaces per TAB
